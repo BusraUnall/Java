@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#xd6;&#x11f;renci Giri&#x15f;i"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="457" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane2" min="-2" pref="587" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="25" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane2" min="-2" pref="595" max="-2" attributes="0"/>
+                  <EmptySpace pref="65" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xd6;&#x11f;renci Sistemine Ho&#x15f;geldiniz"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder thickness="2">
+                      <Color PropertyName="color" blue="1c" green="28" red="44" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Notlar">
+                    <Property name="tabTitle" type="java.lang.String" value="Notlar"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="578" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="lblYilSonuOrt" min="-2" pref="101" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="482" max="-2" attributes="0"/>
+                          <EmptySpace pref="28" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="lblYilSonuOrt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblOgrenciNot">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="7" rowCount="0">
+                            <Column editable="false" title="Not Id" type="java.lang.Integer"/>
+                            <Column editable="false" title="&#xd6;&#x11f;renci No" type="java.lang.String"/>
+                            <Column editable="false" title="Ders Ad&#x131;" type="java.lang.String"/>
+                            <Column editable="false" title="Not-1" type="java.lang.Integer"/>
+                            <Column editable="false" title="Not-2" type="java.lang.Integer"/>
+                            <Column editable="false" title="&#xd6;dev" type="java.lang.Integer"/>
+                            <Column editable="false" title="Ortalama" type="java.lang.Integer"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Y&#x131;l Sonu Ortalamas&#x131;:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblYilSonuOrt">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="20" style="1"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder thickness="2">
+                      <Color PropertyName="color" blue="1c" green="28" red="44" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Ders Program&#x131;">
+                    <Property name="tabTitle" type="java.lang.String" value="Ders Program&#x131;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jScrollPane4" alignment="1" pref="558" max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane6" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane4" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane6" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace pref="22" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="10. S&#x131;n&#x131;f"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable3">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="6" rowCount="7">
+                            <Column editable="true" title="Saat" type="java.lang.String">
+                              <Data value="08.00-08.30"/>
+                              <Data value="08.40-09.10"/>
+                              <Data value="09.20-09.50"/>
+                              <Data value="10.00-10.30"/>
+                              <Data value="10.40-11.10"/>
+                              <Data value="11.20-11.50"/>
+                              <Data value="12.00-12.30"/>
+                            </Column>
+                            <Column editable="true" title="Pazartesi" type="java.lang.String">
+                              <Data value="Fizik"/>
+                              <Data value="Fizik"/>
+                              <Data value="Fizik"/>
+                              <Data value="Tarih"/>
+                              <Data value="Tarih"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                            </Column>
+                            <Column editable="true" title="Sal&#x131;" type="java.lang.String">
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="M&#xfc;zik"/>
+                            </Column>
+                            <Column editable="true" title="&#xc7;ar&#x15f;amba" type="java.lang.String">
+                              <Data value="Kimya"/>
+                              <Data value="Kimya"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Biyoloji"/>
+                            </Column>
+                            <Column editable="true" title="Per&#x15f;embe" type="java.lang.String">
+                              <Data value="Tarih"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                            </Column>
+                            <Column editable="true" title="Cuma" type="java.lang.Object">
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="Tarih"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="11. S&#x131;n&#x131;f"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable4">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="6" rowCount="7">
+                            <Column editable="true" title="Saat" type="java.lang.String">
+                              <Data value="08.00-08.30"/>
+                              <Data value="08.40-09.10"/>
+                              <Data value="09.20-09.50"/>
+                              <Data value="10.00-10.30"/>
+                              <Data value="10.40-11.10"/>
+                              <Data value="11.20-11.50"/>
+                              <Data value="12.00-12.30"/>
+                            </Column>
+                            <Column editable="true" title="Pazartesi" type="java.lang.String">
+                              <Data value="Kimya"/>
+                              <Data value="Kimya"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                            </Column>
+                            <Column editable="true" title="Sal&#x131;" type="java.lang.String">
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="M&#xfc;zik"/>
+                              <Data value="Tarih"/>
+                              <Data value="Tarih"/>
+                              <Data value="Tarih"/>
+                              <Data value="Fizik"/>
+                            </Column>
+                            <Column editable="true" title="&#xc7;ar&#x15f;amba" type="java.lang.String">
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="&#x130;ngilizce"/>
+                            </Column>
+                            <Column editable="true" title="Per&#x15f;embe" type="java.lang.String">
+                              <Data value="Biyoloji"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Matematik"/>
+                              <Data value="Fizik"/>
+                              <Data value="Fizik"/>
+                              <Data value="Kimya"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                            </Column>
+                            <Column editable="true" title="Cuma" type="java.lang.Object">
+                              <Data value="Biyoloji"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="&#x130;ngilizce"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable1">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="6" rowCount="7">
+                            <Column editable="true" title="Saat" type="java.lang.String">
+                              <Data value="08.00-08.30"/>
+                              <Data value="08.40-09.10"/>
+                              <Data value="09.20-09.50"/>
+                              <Data value="10.00-10.30"/>
+                              <Data value="10.40-11.10"/>
+                              <Data value="11.20-11.50"/>
+                              <Data value="12.00-12.30"/>
+                            </Column>
+                            <Column editable="true" title="Pazartesi" type="java.lang.String">
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Tarih"/>
+                              <Data value="Tarih"/>
+                              <Data value="M&#xfc;zik"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                            </Column>
+                            <Column editable="true" title="Sal&#x131;" type="java.lang.String">
+                              <Data value="Fizik"/>
+                              <Data value="Fizik"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Kimya"/>
+                              <Data value="Kimya"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                            </Column>
+                            <Column editable="true" title="&#xc7;ar&#x15f;amba" type="java.lang.String">
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Biyoloji"/>
+                            </Column>
+                            <Column editable="true" title="Per&#x15f;embe" type="java.lang.String">
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Metematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Fizik"/>
+                            </Column>
+                            <Column editable="true" title="Cuma" type="java.lang.Object">
+                              <Data value="Kimya"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="Tarih"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="12. S&#x131;n&#x131;f"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semibold" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="9. S&#x131;n&#x131;f"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable2">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="6" rowCount="7">
+                            <Column editable="true" title="Saat" type="java.lang.String">
+                              <Data value="08.00-08.30"/>
+                              <Data value="08.40-09.10"/>
+                              <Data value="09.20-09.50"/>
+                              <Data value="10.00-10.30"/>
+                              <Data value="10.40-11.10"/>
+                              <Data value="11.20-11.50"/>
+                              <Data value="12.00-12.30"/>
+                            </Column>
+                            <Column editable="true" title="Pazartesi" type="java.lang.String">
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="Co&#x11f;rafya"/>
+                              <Data value="M&#xfc;zik"/>
+                            </Column>
+                            <Column editable="true" title="Sal&#x131;" type="java.lang.String">
+                              <Data value="Kimya "/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Fizik"/>
+                              <Data value="Fizik"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Tarih"/>
+                            </Column>
+                            <Column editable="true" title="&#xc7;ar&#x15f;amba" type="java.lang.String">
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Biyoloji"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                            </Column>
+                            <Column editable="true" title="Per&#x15f;embe" type="java.lang.String">
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="Beden E&#x11f;itimi"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="&#x130;ngilizce"/>
+                              <Data value="T&#xfc;rk&#xe7;e "/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Din K&#xfc;lt&#xfc;r&#xfc;"/>
+                            </Column>
+                            <Column editable="true" title="Cuma" type="java.lang.Object">
+                              <Data value="Matematik"/>
+                              <Data value="Matematik"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="T&#xfc;rk&#xe7;e"/>
+                              <Data value="Kimya"/>
+                              <Data value="Kimya"/>
+                              <Data value="Fizik"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder thickness="2">
+                      <Color PropertyName="color" blue="1c" green="28" red="44" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Duyurular">
+                    <Property name="tabTitle" type="java.lang.String" value="Duyurular"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jScrollPane9" min="-2" pref="564" max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" min="-2" pref="564" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="jScrollPane9" pref="269" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane8" min="-2" pref="229" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextPane" name="txtMesajBuyuk">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                            <LineBorder thickness="2">
+                              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+                            </LineBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="YoneticiEkrani_jTextPane1"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblMesajOgrenci">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="4" rowCount="0">
+                            <Column editable="false" title="id mesaj" type="java.lang.Integer"/>
+                            <Column editable="false" title="Kime" type="java.lang.Object"/>
+                            <Column editable="false" title="Kimden" type="java.lang.Object"/>
+                            <Column editable="false" title="Mesaj" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tblMesajOgrenciMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
